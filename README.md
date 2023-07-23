@@ -12,18 +12,26 @@ On July 17, 2023, wildfires hit the Greece town of Attica due to a heatwave that
 <h2>Step 1: Modelling</h2>
 
 The objective is to train the model for detecting the burning area in Attica, Greece during June 26 to July 14, 2023. With the result of the model, we can estimate the damage in the area and provide the information for the future fire event. To achieve this objective, we utilised satellite images and open source models to detect the burnt area using the models as follows:
+
 FireCLR
+
 SAM
+
 For validation, we use burnt area detected image from Copernicus to compare the segmentation result of each model.
 FireCLR
 
+<img width="452" alt="s1" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/68304541-3341-4384-a746-c6abc6603848">
 
 
 The model is implemented from the research model (Zhang, 2022). We use the trained FireCLR model that is based on their data to extract the features from satellite images. Next step is to compute the difference between pre-fire and post-fire images, we subtract the features of these images to get the significant change of the area. Lastly, the calculated image was clustered using KMean to segment the area of burnt and unburnt .
 
+<img width="452" alt="s2" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/abc8da54-4ee1-4ad3-a7b9-fa776796e6ce">
+
 
 The above images on the left hand side is a label of burnt area that we obtain from Copernicus and the right hand side is the burnt area segmentation from the FireCLR model.
 The yellow area is the burnt area and purple area is the unburnt area.
+
+<img width="456" alt="s3" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/d6ff3ec4-d720-41de-ba80-32ba78e4b3f5">
 
 
 Evaluation metrics
