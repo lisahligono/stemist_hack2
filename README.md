@@ -45,11 +45,7 @@ The result in statistics evaluated that SAM model giving accuracy 0.885, Precisi
 
 <h2>Step 2</h2>
 
-<h2>Step 3</h2>
-
-Segment-Geospatial (samgeo) is an open-source Python package designed to simplify the process of segmenting geospatial data with the Segment Anything Model [@Kirillov2023]. The package leverages popular Python libraries, such as leafmap [@Wu2021], ipywidgets [@Grout2021], rasterio [@Gillies2013], geopandas [@Jordahl2021], and segment-anything-py [@Wu2023], to provide a straightforward interface for users to segment remote sensing imagery and export the results in various formats, including vector and raster data.
-
-https://github.com/opengeos/segment-geospatial/blob/main/paper/paper.md
+<h2>Step 3: Web Application</h2>
 
 <b>FLASK</b>
 
