@@ -152,3 +152,14 @@ PricewaterhouseCoopers. (n.d.). Fire protection in Greece: What is missing? PwC.
 
 Greece | Wildfires and EU response – DG ECHO Daily Map | 18/07/2023 - Greece. (2023, July 18). ReliefWeb. https://reliefweb.int/map/greece/greece-wildfires-and-eu-response-dg-echo-daily-map-18072023
 
+ArcGIS Pro. (n.d.). Calculate Geometry Attributes (Data Management). (2023 July 22). ESRI.https://pro.arcgis.com/en/pro-app/3.0/tool-reference/data-management/calculate-geometry-attributes.htm
+
+ArcGIS Pro. (n.d.). Symmetrical Difference. (2023 July 22). ESRI.https://pro.arcgis.com/en/pro-app/latest/tool-reference/cartography/smooth-polygon.htm#:~:text=Each%20smoothed%20polygon%20may%20have,the%20longer%20the%20processing%20time.
+
+giswqs. (n.d.). segment-geospatial. (2023, July 17). Github. https://github.com/opengeos/segment-geospatial/blob/main/paper/paper.md
+
+Copernicus. (2023 July 19). EMSR673 - Wildfire in western Attica, Greece. (2023, July 19). COPERNICUS Emergency Management Service - Mapping.https://emergency.copernicus.eu/mapping/#zoom=2&lat=34.021&lon=8.968&layers=0BT00
+
+Spaceml-Org. (n.d.). GitHub - spaceml-org/FireCLR-Wildfires: Official code for Unsupervised Wildfire Change Detection based on Contrastive Learning . GitHub. https://github.com/spaceml-org/FireCLR-Wildfires/tree/main
+
+
