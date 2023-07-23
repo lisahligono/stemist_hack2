@@ -1,6 +1,6 @@
 # ABOUT THE CHALLENGE 
 
-This repository is a part of our team's 'InfernoTech' submission for the STEMist Hacks II hackathon. 
+This repository is a part of our team's '<b>InfernoTech</b>' submission for the STEMist Hacks II hackathon. 
 
 <h2>Study area</h2>
 
