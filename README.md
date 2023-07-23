@@ -13,12 +13,7 @@ On July 17, 2023, wildfires hit the Greece town of Attica due to a heatwave that
 
 The objective is to train the model for detecting the burning area in Attica, Greece during June 26 to July 14, 2023. With the result of the model, we can estimate the damage in the area and provide the information for the future fire event. To achieve this objective, we utilised satellite images and open source models to detect the burnt area using the models as follows:
 
-FireCLR
-
-SAM
-
-For validation, we use burnt area detected image from Copernicus to compare the segmentation result of each model.
-FireCLR
+<b>FireCLR</b>
 
 <img width="452" alt="s1" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/68304541-3341-4384-a746-c6abc6603848">
 
@@ -33,45 +28,16 @@ The yellow area is the burnt area and purple area is the unburnt area.
 
 <img width="456" alt="s3" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/d6ff3ec4-d720-41de-ba80-32ba78e4b3f5">
 
-
-Evaluation metrics
-Score
-F1-score
-0.726
-Precision
-0.930
-Recall
-0.595
-Accuracy
-0.775
-
-
-
-
-
 The confusion matrix evaluated that accuracy is 0.775, precision score is 0.93 and recall score is 0.595 which made F1-score is 0.726. Moreover, it represented that the FireCLR model predicted the unburnt area more than the burnt area which made False Negative almost as much as True Positive. This model has made Type 2 Error (False Negative) significantly more than Type 1 Error (Type 1 Error) which can cause some lack of response to recover large burnt areas and future preparation. To improve this, we must clarify the factor that made the model cluster the burnt areas as the unburnt areas to decrease recall score.
 
-SAM
+<b>SAM</b>
 
 <img width="452" alt="s4" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/9f687a26-6bf9-44e4-b353-38899a37d7e1">
 
 
 The above images on the left hand side is a label of burnt area that we obtained from Copernicus and the right hand side is the burnt area segmentation from the SAM model which segmented smoother and more precisely.
 
-
-Evaluation metrics
-Score
-F1-score
-0.880
-Precision
-0.919
-Recall
-0.844
-Accuracy
-0.885
-
-
-
+<img width="444" alt="s5" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/1bf0d3e4-22f0-41df-aa56-0312515b41f3">
 
 
 The result in statistics evaluated that SAM model giving accuracy 0.885, Precision score 0.919, Recall score 0.844 and F1-score 0.880. From the confusion matrix, the model predictions have more Type 2 Error (False Negative) than Type 1 Error (False Positive). 
