@@ -4,6 +4,9 @@ This repository is a part of our team's 'InfernoTech' submission for the STEMist
 
 <h2>Study area</h2>
 
+![Screenshot (1162)](https://github.com/lisahligono/stemist_hack2/assets/72496335/5db05fd1-47ec-4d45-b649-b73fde6ed08f)
+
+
 <h2>Problem</h2>
 
 Heat wave in the southern part of Europe. Greece, like other parts of southern Europe, has seen sweltering temperatures over the past week. The high temperatures — central Greece saw the mercury hit 44 degrees Celsius (111.2 Fahrenheit) — combined with high winds, have led to Greater Athens and southern Greece being put under high alert for wildfires. On July 17, 2023, wildfires hit the Greece town of Attica due to a heatwave that has been experienced in Southern Europe.
