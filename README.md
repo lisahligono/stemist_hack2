@@ -60,7 +60,8 @@ After deriving the burned masks from the models as TIFF file, we converted layer
 
 Computes a geometric intersection of the input and update features, returning the input features and update features that do not overlap. Features or portions of features in the input and update features that do not overlap will be written to the output feature class. 
 
-<img width="458" alt="s6" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/495f4a86-be82-46b5-a715-a117f166e9e4">
+![s7](https://github.com/lisahligono/stemist_hack2/assets/72496335/7ed2cb78-78de-4093-8623-1d87662add03)
+
 
 
 <b>Geometry calculation</b>
@@ -123,6 +124,9 @@ The government rolled out the fire forest protection guidelines for their people
 Recovery
 The government had to pay the compensation to their people in case the citizen property was burnt.With our web map,we can examine the urban area, crop land and burnt areas to plan the recovery strategy. Moreover,  from our analysis the most affected area is cropland, with this analysis can help farmers to plan and pick the right crop to plant in the area and also avoid the area that is often burnt.
 
+![Screenshot (1164)](https://github.com/lisahligono/stemist_hack2/assets/72496335/03da90f5-cb52-4622-81a3-dcf8d2287d7d)
+
+<h2>Limitations</h2>
 
 <h2>References</h2>
 Zhang, B. (2022, November 26). Unsupervised Wildfire Change Detection based on Contrastive Learning. arXiv.org. https://arxiv.org/abs/2211.14654
