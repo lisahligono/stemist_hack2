@@ -45,6 +45,29 @@ The result in statistics evaluated that SAM model giving accuracy 0.885, Precisi
 
 <h2>Step 2: Spatial Analysis using GIS</h2>
 
+<b>Pre-processing data</b>
+
+After deriving the burned masks from the models as TIFF file, we converted layers to polygons and then performed “Polygon smoothing” to smooth sharp angles in polygon outlines to improve aesthetic or cartographic quality of burned areas. 
+
+<img width="458" alt="s6" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/ec50e55f-c4f4-4b1a-9885-640fb76ad7a3">
+
+
+<b>Symmetrical Difference</b>
+
+Computes a geometric intersection of the input and update features, returning the input features and update features that do not overlap. Features or portions of features in the input and update features that do not overlap will be written to the output feature class. 
+
+<img width="458" alt="s6" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/495f4a86-be82-46b5-a715-a117f166e9e4">
+
+
+<b>Geometry calculation</b>
+Adds information to a feature's attribute fields representing the spatial or geometric characteristics and location of each feature, such as length or area and x-, y-, z-coordinates, and m-values.
+https://pro.arcgis.com/en/pro-app/3.0/tool-reference/data-management/calculate-geometry-attributes.htm
+
+
+Then calculate building areas or natural land cover areas.
+
+
+
 <h2>Step 3: Web Application</h2>
 
 <b>FLASK</b>
