@@ -50,7 +50,12 @@ Accuracy
 
 
 The confusion matrix evaluated that accuracy is 0.775, precision score is 0.93 and recall score is 0.595 which made F1-score is 0.726. Moreover, it represented that the FireCLR model predicted the unburnt area more than the burnt area which made False Negative almost as much as True Positive. This model has made Type 2 Error (False Negative) significantly more than Type 1 Error (Type 1 Error) which can cause some lack of response to recover large burnt areas and future preparation. To improve this, we must clarify the factor that made the model cluster the burnt areas as the unburnt areas to decrease recall score.
+
 SAM
+
+<img width="452" alt="s4" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/9f687a26-6bf9-44e4-b353-38899a37d7e1">
+
+
 The above images on the left hand side is a label of burnt area that we obtained from Copernicus and the right hand side is the burnt area segmentation from the SAM model which segmented smoother and more precisely.
 
 
