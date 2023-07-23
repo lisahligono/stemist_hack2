@@ -145,6 +145,7 @@ We could only deploy our web application locally at the moment
 
 
 <h2>References</h2>
+
 Zhang, B. (2022, November 26). Unsupervised Wildfire Change Detection based on Contrastive Learning. arXiv.org. https://arxiv.org/abs/2211.14654
 
 PricewaterhouseCoopers. (n.d.). Fire protection in Greece: What is missing? PwC. https://www.pwc.com/gr/en/publications/greek-thought-leadership/fire-protection-in-greece.html
