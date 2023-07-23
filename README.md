@@ -70,3 +70,22 @@ Running the Flask App: Finally, the Flask app is run in debug mode using app.run
 
 
 <h2>Solution</h2>
+Wildfires are natural disasters that can have devastating impacts on both the environment and human communities. Some areas like our study areas frequently contend with such wildfire occurrences. Disaster managers need to identify and assess damaged areas to prioritise response efforts, allocate resources, and plan for recovery and reconstruction activities. So, our disaster management is separated to following phase:
+
+<b>Pre-Disaster</b>
+
+Preparation
+
+The Greek government has an alarm system to predict the probability of risk of fire. With the implementation of our web map that demonstrates the previous fire burnt area, they can have better management to put out the fire and protect the citizens and their properties.
+
+<b>Post-Disaster</b>
+
+Response
+
+The government rolled out the fire forest protection guidelines for their people and suggested that the citizens work from home and avoid going outside. For the fire fighting forces, they have requested the help of national and got the help from the other countries to help extinguish the fire from both land and air. Moreover, as of 18 July , about 900 people had evacuated from the burning area. 
+Recovery
+The government had to pay the compensation to their people in case the citizen property was burnt.With our web map,we can examine the urban area, crop land and burnt areas to plan the recovery strategy. Moreover,  from our analysis the most affected area is cropland, with this analysis can help farmers to plan and pick the right crop to plant in the area and also avoid the area that is often burnt.
+
+
+<h2>References</h2>
+Zhang, B. (2022, November 26). Unsupervised Wildfire Change Detection based on Contrastive Learning. arXiv.org. https://arxiv.org/abs/2211.14654
