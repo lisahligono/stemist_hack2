@@ -106,6 +106,8 @@ Folium is a powerful Python library used for creating interactive maps and visua
 
 <i>Running the Flask App</i>: Finally, the Flask app is run in debug mode using app.run(debug=True), allowing the server to listen for incoming requests and serve the map when the root URL is accessed.
 
+<img width="451" alt="steMap" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/377275c7-020c-4e7f-9a63-c8105e636a04">
+
 <h2>Solution</h2>
 
 Wildfires are natural disasters that can have devastating impacts on both the environment and human communities. Some areas like our study areas frequently contend with such wildfire occurrences. Disaster managers need to identify and assess damaged areas to prioritise response efforts, allocate resources, and plan for recovery and reconstruction activities. So, our disaster management is separated to following phase:
