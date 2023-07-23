@@ -43,7 +43,7 @@ The above images on the left hand side is a label of burnt area that we obtained
 The result in statistics evaluated that SAM model giving accuracy 0.885, Precision score 0.919, Recall score 0.844 and F1-score 0.880. From the confusion matrix, the model predictions have more Type 2 Error (False Negative) than Type 1 Error (False Positive). 
 
 
-<h2>Step 2</h2>
+<h2>Step 2: Spatial Analysis using GIS</h2>
 
 <h2>Step 3: Web Application</h2>
 
