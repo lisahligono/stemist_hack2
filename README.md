@@ -73,7 +73,7 @@ Then calculate building areas or natural land cover areas.
 
 
 
-<h2>Step 3: Web Application</h2>
+<h2>Step 3: Web Development</h2>
 
 <b>FLASK</b>
 
@@ -129,6 +129,20 @@ The government had to pay the compensation to their people in case the citizen p
 ![Screenshot (1164)](https://github.com/lisahligono/stemist_hack2/assets/72496335/03da90f5-cb52-4622-81a3-dcf8d2287d7d)
 
 <h2>Limitations</h2>
+
+While using the FireCLR model to extract the feature from our fire image, we have to crop down our image to small images and put them in a folder but the folder is limited to 10,000 images. So, our results are not very smooth because we have big cropped images with a big stride when cropped them.
+
+From the first limitations, we change the file system to save them by 1 column 1 folder but we still face the limitation of saving folders. We can’t create more than 100 folders. So, we have to crop the image with a big stride.
+
+The limitation of RAM in Colab, because of training the model using a lot of computation, the colab can crash easily.
+
+
+The result from FireCLR has a coarse resolution so when it is converted to polygon, it is necessary to refine or smoothen the edges.
+
+SAMGeo supports only 8-bit images, so we need to perform pre-processing on our datasets from 16-bit to 8-bit before using the model.
+
+We could only deploy our web application locally at the moment
+
 
 <h2>References</h2>
 Zhang, B. (2022, November 26). Unsupervised Wildfire Change Detection based on Contrastive Learning. arXiv.org. https://arxiv.org/abs/2211.14654
