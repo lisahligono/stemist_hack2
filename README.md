@@ -1,6 +1,7 @@
 # ABOUT THE CHALLENGE 
 
 This repository is a part of our team's '<b>InfernoTech</b>' submission for the STEMist Hacks II hackathon. 
+The presentation slide is here : https://www.canva.com/design/DAFpZvg7LSM/O_jhm2SSUybnfLzPpxXdQw/edit?utm_content=DAFpZvg7LSM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 <h2>Study area</h2>
 
