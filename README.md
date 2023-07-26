@@ -40,12 +40,12 @@ The confusion matrix evaluated that accuracy is 0.775, precision score is 0.93 a
 <img width="452" alt="s4" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/9f687a26-6bf9-44e4-b353-38899a37d7e1">
 
 
-The above images on the left hand side is a label of burnt area that we obtained from Copernicus and the right hand side is the burnt area segmentation from the SAM model which segmented smoother and more precisely.
+The above images on the left hand side is a label of burnt area that we obtained from Copernicus and the right hand side is the burnt area segmentation from the SAMGeo(Segment-geospatial) model developed by Qiusheng Wu which segmented smoother and more precisely.
 
 <img width="444" alt="s5" src="https://github.com/lisahligono/stemist_hack2/assets/72496335/1bf0d3e4-22f0-41df-aa56-0312515b41f3">
 
 
-The result in statistics evaluated that SAM model giving accuracy 0.885, Precision score 0.919, Recall score 0.844 and F1-score 0.880. From the confusion matrix, the model predictions have more Type 2 Error (False Negative) than Type 1 Error (False Positive). 
+The result in statistics evaluated that SAMGeo model giving accuracy 0.885, Precision score 0.919, Recall score 0.844 and F1-score 0.880. From the confusion matrix, the model predictions have more Type 2 Error (False Negative) than Type 1 Error (False Positive). 
 
 
 <h2>Step 2: Spatial Analysis using GIS</h2>
